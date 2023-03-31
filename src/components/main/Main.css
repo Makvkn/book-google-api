@@ -1,0 +1,48 @@
+.main {
+    flex: 0 1 100%;
+}
+
+.booksSection {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding-bottom: 50px;
+}
+
+.booksSection-controlBar {
+    align-items: center;
+    background: #fffefb;
+    border-radius: 4px;
+    box-shadow: 0 20px 30px rgba(0,0,0,.04), 0 6px 10px rgba(0,0,0,.02);
+    display: flex;
+    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding: 15px;
+}
+
+.booksSection_contents {
+    display: flex;
+    flex-direction: column;
+}
+
+.books_list {
+    list-style-type: none;
+    grid-gap: 16px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(332px,1fr));
+}
+
+.books_list-card {
+    background: #fffefb;
+    border: 2px solid #fff;
+    border-radius: 4px;
+    box-shadow: 0 20px 30px rgba(0,0,0,.04), 0 6px 10px rgba(0,0,0,.02);
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    max-width: 420px;
+    position: relative;
+    transition: all .2s ease;
+}
