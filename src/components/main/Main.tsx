@@ -21,6 +21,8 @@ const Main = () => {
                         <Book />
                         <Book />
                         <Book />
+                        <Book />
+                        <Book />
                     </ul>
                 </div>
             </div>

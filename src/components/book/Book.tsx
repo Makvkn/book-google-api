@@ -9,7 +9,7 @@ const Book = () => {
             </div>
             <div className="card_content">
                 <p className="card_category">
-                    History
+                    History, my history
                 </p>
                 <h3 className="card_name">
                     History about history
