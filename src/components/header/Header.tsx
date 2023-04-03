@@ -6,15 +6,12 @@ const Header = () => {
         event.preventDefault()
         console.log('hello search')
         {/*AIzaSyA4qW0u6wL-JSXsc5654TWfnW-wYgDPelY*/}
-
         const response = await fetch('https://www.googleapis.com/books/v1/volumes?q=+intitle:g&startIndex=0&maxResults=30&key=AIzaSyA4qW0u6wL-JSXsc5654TWfnW-wYgDPelY');
         if (response.ok) {
             const responseData = await response.json();
             console.log(responseData)
         }
-
         // "https://www.googleapis.com/books/v1/volumes?q=+intitle:g&startIndex=0&maxResults=30&key=AIzaSyBNyDVH2q0vYAyz4zBazhe1_P5iLDa1ScU"
-
     }
 
 
